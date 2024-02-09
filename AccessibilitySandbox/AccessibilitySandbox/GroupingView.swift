@@ -12,6 +12,7 @@ struct GroupingView: View {
         Image(decorative: "redDemon")
             .resizable()
             .scaledToFit()
+            .accessibilityHidden(true)
     }
 }
 
