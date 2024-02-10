@@ -18,7 +18,8 @@ struct GroupingView: View {
             Text("1000")
                 .font(.title)
         }
-        .accessibilityElement(children: .combine)
+        .accessibilityElement(children: .ignore)
+        .accessibilityLabel("Your score is 1000")
     }
 }
 
