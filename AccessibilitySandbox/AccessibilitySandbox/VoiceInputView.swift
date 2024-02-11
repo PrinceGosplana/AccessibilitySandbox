@@ -9,7 +9,10 @@ import SwiftUI
 
 struct VoiceInputView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button("John Fitzgerald Kennedy") {
+            print("button tapped")
+        }
+        .accessibilityInputLabels(["John Fitzgerald Kennedy", "Kennedy", "JFK"])
     }
 }
 
